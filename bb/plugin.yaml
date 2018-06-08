@@ -1,0 +1,8 @@
+name: "bb"
+shortDesc: "Launch and attach to a busybox pod"
+command: ./command.sh
+flags:
+  - name: "namespace"
+    shorthand: "n"
+    desc: "Namespace"
+    defValue: "default"
